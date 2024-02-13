@@ -1,0 +1,52 @@
+/* 
+First CSS
+ƧPD
+*/
+/* 
+CSS Rule:
+selector {
+  property: value; 
+}
+*/
+
+article {
+color: rgb(197, 9, 175);
+background-color: rgb(255, 199, 209);
+}
+/* multiple selectors (separeted by coma)*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+
+
+h4 {
+color: #ec657d;
+font-size: 32px;
+font-family: Roboto;
+font-weight: 400;
+font-style: normal;
+text-align: left;
+text-decoration: underline;
+}
+
+p {
+line-height: 1,2;
+initial-letter: 2px;
+}
+
+/* selector targeting decendants (separeted by space) */
+main p{
+border: 2px solid blue;
+}
+/*selector targeting the next sibling (separeted by plus) */
+p + p {
+border: 10px dashed #15cfaa;
+}
+
+/* class name selector (starts with full stop) */
+.title {
+  color: orange;
+
+}
